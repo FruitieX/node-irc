@@ -1,4 +1,10 @@
-[![](https://img.shields.io/travis/martynsmith/node-irc.svg?style=flat)](https://travis-ci.org/martynsmith/node-irc)
+[![Travis](https://img.shields.io/travis/martynsmith/node-irc.svg?style=flat)](https://travis-ci.org/martynsmith/node-irc)
+[![npm](https://img.shields.io/npm/v/irc.svg?style=flat)](https://www.npmjs.com/package/irc)
+[![Dependency Status](https://img.shields.io/david/martynsmith/node-irc.svg?style=flat)](https://david-dm.org/martynsmith/node-irc#info=Dependencies)
+[![devDependency Status](https://img.shields.io/david/dev/martynsmith/node-irc.svg?style=flat)](https://david-dm.org/martynsmith/node-irc#info=devDependencies)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](http://opensource.org/licenses/GPL-3.0)
+[![Join the chat at https://gitter.im/martynsmith/node-irc](https://badges.gitter.im/martynsmith/node-irc.svg)](https://gitter.im/martynsmith/node-irc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 [node-irc](http://node-irc.readthedocs.org/) is an IRC client library written in [JavaScript](http://en.wikipedia.org/wiki/JavaScript) for [Node](http://nodejs.org/).
 
@@ -47,7 +53,7 @@ var client = new irc.Client('irc.yourserver.com', 'myNick', {
 Of course it's not much use once it's connected if that's all you have!
 
 The client emits a large number of events that correlate to things you'd
-normally see in your favourite IRC client. Most likely the first one you'll want
+normally see in your favorite IRC client. Most likely the first one you'll want
 to use is:
 
 ```js
